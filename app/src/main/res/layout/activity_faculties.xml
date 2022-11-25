@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hw3.ui.FacultiesActivity">
+
+    <EditText
+        android:id="@+id/facultiesActivityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Faculty" />
+
+    <Button
+        android:id="@+id/languageActivityBtAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/FacultiesActivityBtShowCourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="show all courses of the faculty" />
+
+    <Button
+        android:id="@+id/FacultiesActivityBtShowAllFaculties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="show all faculties " />
+
+    <Button
+        android:id="@+id/FacultiesActivityBtDeleteCourseByName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="delete" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
